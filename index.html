@@ -3,12 +3,22 @@
   <head>
     <title>TaskTracker</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>TaskTracker</h1>
-    <input type="text" id="newItemInput" placeholder="add a task" />
-    <button id="addItemButton">Add Item</button>
-    <ul id="todoList"></ul>
+    <div class="main">
+      <h1>-Task Tracker-</h1>
+      <div class="input-area">
+        <input type="text" id="newItemInput" placeholder="create a task..." />
+        <button id="addItemButton">Add Item</button>
+      </div>
+      <ul id="todoList"></ul>
+    </div>
 
     <script src="script.js"></script>
   </body>
